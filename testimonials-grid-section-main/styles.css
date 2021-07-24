@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: white;
+  background-color: hsl(210, 46%, 95%);
+}
+
+p,
+h1,
+h2,
+h3,
+h5,
+h6,
+h4 {
+  margin: 0;
+}
+
+.card1 {
+  background-color: hsl(263, 55%, 52%);
+  z-index: 1;
+}
+
+.card2 {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.card3,
+.card5 {
+  color: black;
+}
+
+.card4 {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.card {
+  position: relative;
+  min-height: 270px;
+  border-radius: 10px;
+  margin: 5px 5px 10px 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    min-height: 50px;
+  }
+}
+
+.card-body p {
+  opacity: 70%;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.picture-card {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid whitesmoke;
+}
+
+.section-presentation {
+  display: flex;
+  gap: 10px;
+  padding: 16px 16px 0px 16px;
+}
+
+.section-presentation p {
+  opacity: 50%;
+}
+
+svg {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  z-index: -1;
+}
