@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .container {
+    flex-direction: row;
+    width: 55%;
+  }
+}
+
+.item1 button {
+  color: hsl(31, 77%, 52%);
+}
+
+.container .item1 {
+  background-color: hsl(31, 77%, 52%);
+  flex-grow: 1;
+  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+@media (max-width: 900px) {
+  .container .item1 {
+    border-radius: 10px 10px 0px 0px;
+  }
+}
+
+.item2 button {
+  color: hsl(184, 100%, 22%);
+}
+.container .item2 {
+  background-color: hsl(184, 100%, 22%);
+  flex-grow: 1;
+  width: 100%;
+}
+.item3 button {
+  color: hsl(179, 100%, 13%);
+}
+
+.container .item3 {
+  background-color: hsl(179, 100%, 13%);
+  flex-grow: 1;
+  width: 100%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+@media (max-width: 900px) {
+  .container .item3 {
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+
+.col {
+  width: 33%;
+  background-color: seashell;
+  padding: 20px 50px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 35px;
+}
+
+.content p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media (max-width: 900px) {
+  .content {
+    justify-content: center;
+    height: 300px;
+    gap: 20px;
+  }
+}
+
+.col button {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+}

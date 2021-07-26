@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%) !important;
+}
+
+.contenedorPrincipal {
+  padding: 10px;
+  background-color: hsl(244, 38%, 16%);
+  height: 55%;
+  border-radius: 50px;
+}
+
+.rigth {
+  font-family: "Inter", sans-serif;
+  width: 400;
+}
+.contenedor {
+  padding-right: 80px;
+  padding-left: 40px;
+}
+
+.rigth div {
+  gap: 20px;
+}
+
+.rigth div p {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.rigth h3 {
+  font-family: "Inter", sans-serif;
+}
+
+.rigth h3 span {
+  color: rgb(173, 85, 255);
+}
+
+@media (min-width: 992px) {
+  .alto100 {
+    height: 100vh;
+  }
+}
+
+.left div {
+  opacity: 0.6;
+  background-color: rgb(99 18 137);
+}
+.container-imagen {
+  overflow: hidden;
+}
+
+.container-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.item-p {
+  font-size: 10px;
+}

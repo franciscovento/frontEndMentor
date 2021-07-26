@@ -24,19 +24,23 @@ h4 {
 .card1 {
   background-color: hsl(263, 55%, 52%);
   z-index: 1;
+  /* height: 100%; */
 }
 
 .card2 {
   background-color: hsl(217, 19%, 35%);
+  /* height: 100%; */
 }
 
 .card3,
 .card5 {
   color: black;
+  /* height: 100%; */
 }
 
 .card4 {
   background-color: hsl(219, 29%, 14%);
+  /* height: 100%; */
 }
 
 .card {
