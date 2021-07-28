@@ -114,4 +114,9 @@ main {
   border: none;
   border-radius: 50px;
   font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.col button:hover {
+  transform: scale(1.05);
 }
